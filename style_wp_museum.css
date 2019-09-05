@@ -1,0 +1,57 @@
+
+/* Layout: 10 columns width list=1 items= 9  */
+.popo-wrapper {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.popo-list {
+  grid-column: 1;
+  grid-row: 1;
+}
+.popo-left {
+  grid-column: 2 / 7;
+  grid-row: 1;
+  /* default: all items hidden */
+  display: none;
+}
+.popo-right {
+  grid-column: 7 / 11;
+  grid-row: 1;
+  display: none;
+}
+.popo-right-image {
+  
+}
+.popo-thumb {
+  display: inline-block;
+  width: 50px;
+  /* height: 100px; */
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.popo-info-title {
+  color: #B9997F; /* brown */
+}
+.popo-category-link {
+  font-size: 1.2em;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.popo-category-image {
+  border: solid 1px white;
+}
+.popo-category-image:hover {
+  -webkit-filter: brightness(80%);
+  border: solid 1px #B9997F; /* brown */
+}
+
+.popo-right-image-thumb {
+  border: solid 1px white;
+}
+.popo-right-image-thumb:hover {
+  -webkit-filter: brightness(80%);
+  border: solid 1px #B9997F; /* brown */
+}
