@@ -6,7 +6,7 @@ the table in a Wordpress page.
 
 The Airtable base has sample Museum data and public domain photos.  
 A Wordpress page is built with plugins to pull the Museum data, and display
-various data and photos in an interactive page template.
+various attributes and photos in an interactive page template.
 
 ## Installation
 
